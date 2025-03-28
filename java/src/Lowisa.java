@@ -9,4 +9,8 @@ public class Lowisa {
     public void food(){
         System.out.println("Lowisas favorite food is pizza");
     }
+
+    public void drink() {
+        System.out.println("Lowisas favorite drink is beer");
+    }
 }
