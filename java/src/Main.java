@@ -4,23 +4,27 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args)
     {
-        String name;
+        String text;
         Scanner scanner = new Scanner(System.in);
         Lowisa l1 = new Lowisa();
         Mena m1 = new Mena();
 
-        System.out.println("Skriv in ditt namn");
-        name = scanner.nextLine();
-        name.toLowerCase();
+        System.out.println("Varsågod och skriv: ");
+        text = scanner.nextLine();
+        text.toLowerCase();
 
-        if(name.equals("lowisa"))
+        if(text.equals("lowisa"))
         {
             l1.hello();
         }
 
-        if(name.equals("mena"))
+        if(text.equals("mena"))
         {
             m1.mena();
+        }
+        if (text.equals("lowisa food"))
+        {
+            l1.food();
         }
 
 
