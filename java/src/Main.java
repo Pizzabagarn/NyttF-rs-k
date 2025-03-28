@@ -10,12 +10,12 @@ public class Main {
         name = scanner.nextLine();
         name.toLowerCase();
 
-        if(name == "lowisa")
+        if(name.equals("lowisa"))
         {
             l1.hello();
         }
 
-        if(name == "mena")
+        if(name.equals("mena"))
         {
 
         }
