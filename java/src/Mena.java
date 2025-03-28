@@ -1,4 +1,4 @@
-
+package src;
 
 public class Mena {
 
@@ -8,5 +8,9 @@ public class Mena {
 
     public void food() {
         System.out.println("I like food");
+    }
+
+    public void drink() {
+        System.out.println("I like to drink");
     }
 }
