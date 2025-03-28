@@ -1,6 +1,3 @@
-package src;
-
-import src.Mena;
 
 import java.util.Scanner;
 public class Main {
@@ -27,6 +24,10 @@ public class Main {
         if (text.equals("lowisa food"))
         {
             l1.food();
+        }
+        if (text.equals("mena food"))
+        {
+            m1.food();
         }
 
 
