@@ -1,3 +1,5 @@
+package src;
+
 import src.Mena;
 
 import java.util.Scanner;
